@@ -11,7 +11,7 @@
 		<div class="top-nav">
 			<ul class="wrapper clearfix">
 				<li class="logo" >
-					<a href="#">logo</a>
+					<a href="#" title="WE婚戒定制中心"></a>
 				</li>
 				<li>
 					<a href="#" class="on" >首页</a>
@@ -217,23 +217,17 @@
 		$(document).ready(function(){
 			var $nav = $(".top-nav"),
 				$show = $(".ani-show");
-			// for(var i=0;i<$show.length;i++){
-
-			// }
-			$(document).scroll(function(){
+			$(window,document).scroll(function(){
 				var top = $(document).scrollTop()
 				if(top > 0){
 					$nav.addClass("not-top")
 				}else{
 					$nav.removeClass("not-top")
 				}
-
 				$show.scrollTop()
-
 			})
 
 			$.fn.detectAndAddClass = function(className) {
-				console.log(className)
 				this.each(function(){
 					var $this = $(this),
 						top = $this.offset().top,
@@ -241,7 +235,7 @@
 						height = w_h - ($this.height()*0.8);
 					function regScroll() {
 						// detect height
-						if(document.body.scrollTop >= top-height ) {
+						if($(document).scrollTop() >= top-height ) {
 							$this.addClass(className)
 							$(window).off('scroll', regScroll)
 						}

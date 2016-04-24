@@ -200,7 +200,7 @@ a{ text-decoration: none;}
   position: fixed;
   width:100%;
   padding:22px 0;
-  background:rgba(255,255,255,.3);
+  background:url(../images/nav_bg.png);
   z-index:10;
   @include transition(all,.8s);
   .logo{
@@ -210,8 +210,6 @@ a{ text-decoration: none;}
       height:126px;
       background: url(../images/logo.png) center no-repeat;
       border:none;
-      overflow: hidden;
-      text-indent: -9999px;
     }
     a:hover{
       border:none;
@@ -219,6 +217,7 @@ a{ text-decoration: none;}
   }
   li{
     width:14.28%;
+    *width:14.24%;
     float:left;
     text-align: center;
     padding-top:46px;
@@ -242,7 +241,7 @@ a{ text-decoration: none;}
 
 /***顶部导航栏变小***/
 .not-top{
-    background:rgba(219,190,128,.9);
+    background:url(../images/nav_bg_a.png);
     .logo{
       a{
         width:40px; 
@@ -273,10 +272,11 @@ a{ text-decoration: none;}
   .culture{
     text-align:center;
     h3{
-      display:inline-block;
+      display:block;
+      width:130px;
       border:1px solid #343434;
       padding:6px 24px;
-      margin-bottom:54px;
+      margin:0 auto 54px auto;
     }
     p{
       color:#343434;

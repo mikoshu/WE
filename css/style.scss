@@ -105,7 +105,7 @@ a{ text-decoration: none;}
   @include transition(all,0.3s)
 }
 .scale:hover{
-  transform: scale(1.2,1.2);
+  transform: scale(1.1,1.1);
 }
 
 .ani-show{
@@ -118,6 +118,14 @@ a{ text-decoration: none;}
   opacity:1;
   @include transform(translateY(0));
   margin-top:0;
+  .t1,.t2{
+    opacity:1;
+    @include transform(translateY(0));
+  }
+  .ring{
+    opacity:1;
+    @include transform(translateY(0));
+  }
 }
 
 /**通用类**/
@@ -318,19 +326,6 @@ a{ text-decoration: none;}
         right:67px;
         text-indent:-9999px;
       }
-      .t2{
-        top:200px;
-        width:322px;
-        height:33px;
-        background:url(../images/t2.png) no-repeat;
-      }
-      .t1{
-        top:134px;
-        width:202px;
-        height:47px;
-        background:url(../images/t1.png) no-repeat;
-      }
-      
     }
   }
 
@@ -387,11 +382,6 @@ a{ text-decoration: none;}
       width:560px;
       height:400px;
       background:url(../images/standards.jpg) no-repeat;
-      img{
-        position:absolute;
-        left:68px;
-        top:-32px;
-      }
     }
     .st-r{
       width:440px;
@@ -554,8 +544,34 @@ a{ text-decoration: none;}
   }
 }
 
+/**降低动画元素 权重**/
+.t2{
+  top:200px;
+  width:322px;
+  height:33px;
+  background:url(../images/t2.png) no-repeat;
+  @include transform(translateY(50px));
+}
+.t1{
+  top:134px;
+  width:202px;
+  height:47px;
+  background:url(../images/t1.png) no-repeat;
+  @include transform(translateY(-50px));
+}
+.t1,.t2{
+  opacity:0;
+  @include transition(all,1.5s .5s);
+}
 
-
+.ring{
+  position:absolute;
+  left:68px;
+  top:-32px;
+  opacity:0;
+  @include transform(translateY(-50px));
+  @include transition(all,2s .5s);
+}
 
 
 

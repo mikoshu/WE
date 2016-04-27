@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
 	<!--#include virtual="header.shtml" -->
 		<div class="header">
 			<div class="h-bg"></div>
@@ -13,7 +11,7 @@
 					<a href="#">
 						<img class="scale" src="pic/img_team.jpg" />
 					</a>
-					<a href="#">
+					<a href="quality.html">
 						<img class="scale" src="pic/img_quality.jpg" />
 					</a>
 				</div>
@@ -22,10 +20,10 @@
 						<a href="#">品牌故事>></a>
 					</li>
 					<li>
-						<a href="#">品牌故事>></a>
+						<a href="#">设计团队>></a>
 					</li>
 					<li>
-						<a href="#">品牌故事>></a>
+						<a href="quality.html">品质&工艺>></a>
 					</li>
 				</ul>
 			</div>
@@ -103,116 +101,7 @@
 
 			</div>
 		</div>
-
-		<div class="footer">
-			<div class="f-con clearfix">
-				<a href="#" class="b-logo">
-					<img src="images/logo.png" />
-				</a>
-				<div class="mod">
-					<h3>帮助中心</h3> 
-					<div><a href="#">投诉建议</a></div> 
-					<div><a href="#">注册流程</a></div> 
-					<div><a href="#">网站地图</a></div> 
-					<div><a href="#">联系我们</a></div>
-				</div>
-				<div class="mod">
-					<h3>帮助中心</h3> 
-					<div><a href="#">投诉建议</a></div> 
-					<div><a href="#">注册流程</a></div> 
-					<div><a href="#">网站地图</a></div> 
-					<div><a href="#">联系我们</a></div>
-				</div>
-				<div class="mod">
-					<h3>帮助中心</h3> 
-					<div><a href="#">投诉建议</a></div> 
-					<div><a href="#">注册流程</a></div> 
-					<div><a href="#">网站地图</a></div> 
-					<div><a href="#">联系我们</a></div>
-				</div>
-				<div class="mod">
-					<h3>帮助中心</h3> 
-					<div><a href="#">投诉建议</a></div> 
-					<div><a href="#">注册流程</a></div> 
-					<div><a href="#">网站地图</a></div> 
-					<div><a href="#">联系我们</a></div>
-				</div>
-				<div class="mod no-bor">
-					<h3>客户服务中心联系方式</h3> 
-					<span>免费服务热线：<ins>400-400-4000</ins></span>
-					<span>免费服务邮箱：4546456@sdf.com</span>
-					<span>服务时间：09:00-24:00</span>
-				</div>
-			</div>
-			<div class="web-right">
-				COPYRIGHT 2007~2016 LOVES ALL RIGHTS RESERVED 粤IPC备09004511 增值电信业务经营许可证 粤B2-20090145
-			</div>
-			<ul class="links">
-				<li>友情链接：</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-				<li>
-					<a href="">拉手网</a>
-				</li>
-			</ul>
-		</div>
-		
+		<!--#include virtual="footer.shtml" -->
 	</div>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			var $nav = $(".top-nav"),
-				$show = $(".ani-show");
-			$(window,document).scroll(function(){
-				var top = $(document).scrollTop()
-				if(top > 0){
-					$nav.addClass("not-top")
-				}else{
-					$nav.removeClass("not-top")
-				}
-				$show.scrollTop()
-			})
-
-			$.fn.detectAndAddClass = function(className) {
-				this.each(function(){
-					var $this = $(this),
-						top = $this.offset().top,
-						w_h = window.innerHeight,
-						height = w_h - ($this.height()*0.2);
-					function regScroll() {
-						// detect height
-						if($(document).scrollTop() >= top-height ) {
-							$this.addClass(className)
-							$(window).off('scroll', regScroll)
-						}
-					}
-					$(window).on('scroll', regScroll)
-				})
-			}
-
-			$('.ani-show').detectAndAddClass('ani-in')
-		})
-	</script>
 </body>
 </html>

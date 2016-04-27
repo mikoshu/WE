@@ -253,6 +253,7 @@ a{ text-decoration: none;}
 
 /***顶部导航栏变小***/
 .not-top{
+    padding:12px 0;
     background:url(../images/nav_bg_a.png);
     .logo{
       a{
@@ -577,5 +578,245 @@ a{ text-decoration: none;}
   @include transition(all,2s .5s);
 }
 
+/***质量&工艺页面***/
+.header{
+  .pg-quality{ 
+    background: url(../images/quality_bg.jpg) center no-repeat;
+  }
+  .txt{
+    width:467px;
+    height:127px;
+    margin-left:-233px;
+    background: url(../images/quality_txt.png) no-repeat;
+  }
+}
+.main.quality{
+  .culture{
 
+    h3{
+      width:140px;
+    }
+    p{
+      color:#000;
+      text-align:center;
+    }
+  }
+  p{
+    color:#666;
+    text-align:justify;
+    line-height:28px;
+  }
+
+  .inner-arc{
+      height:405px;
+      position: relative;
+      .arc-l{
+        margin-top:96px;
+        width:696px;
+        height:405px;
+        background:#f1f1f1;
+      }
+      .txt{
+        position:absolute;
+        left:543px;
+        top:64px;
+        width:392px;
+        height:99px;
+        background: url(../images/quality/txt1.png);
+      }
+      p{
+        position:absolute;
+        left:540px;
+        top:187px;
+        width:400px;
+      }
+  }
+
+  .polish{
+    position:relative;
+    margin-top: 120px;
+    height:400px;
+    .img-box{
+      position: relative;
+      margin-left:304px;
+      width:696px;
+      height:400px;
+      background: #f1f1f1;
+    }
+    .txt{
+      position:absolute;
+      left:70px;
+      top:80px;
+      width:317px;
+      height:100px;
+      background: url(../images/quality/txt2.png);
+    }
+    p{
+      position:absolute;
+      left:70px;
+      top:211px;
+      width:410px;
+    }
+  }
+
+  .sealed{
+    height:424px;
+    margin-top:120px;
+    position: relative;
+    .img-box{
+      width:695px;
+      height:424px;
+      background: #f1f1f1;
+      position: relative;
+    }
+    .txt{
+      position: absolute;
+      left:590px;
+      top:65px;
+      width:341px;
+      height:106px;
+      background: url(../images/quality/txt3.png);
+    }
+    p{
+      position: absolute;
+      left:593px;
+      top:193px;
+      width:340px;
+    }
+  }
+
+  .thickness{
+    margin-top:120px;
+    height:406px;
+    position: relative;
+    .img-box{
+      width:700px;
+      height:406px;
+      margin-left:300px;
+      background: #f1f1f1;
+      position: relative;
+    }
+    .txt{
+      position: absolute;
+      left:71px;
+      top:30px;
+      width:408px;
+      height:101px;
+      background: url(../images/quality/txt4.png);
+    }
+    p{
+      position: absolute;
+      left:71px;
+      top:156px;
+      width:363px;
+    }
+  }
+
+  .title-5c{
+    height:105px;
+    margin-top:184px;
+    margin-bottom: 30px;
+    background: url(../images/quality/t0.png) center no-repeat;
+    text-indent: -9999px;
+  }
+
+  .intro-5c{
+    height:326px;
+    margin-top: 35px;
+    .in-l{
+      float: left;
+      width:396px;
+      padding:15px 16px 0px 16px;
+      h3{
+        width:321px;
+        height:68px;
+        margin-bottom:30px;
+      }
+      p{
+        margin-bottom: 10px;
+        font-size:16px;
+        line-height: 24px;
+      }
+    }
+    .in-r{
+      width:564px;
+      float: right;
+    }
+  }
+
+  .last-5c{
+    height:230px;
+  }
+
+}
+
+/**quality单独动画元素**/
+.ring-arc{
+  margin:80px 0 0 25px;
+  opacity:0;
+  @include transform(translateY(-50px));
+  @include transition(all,2.5s .5s);
+}
+
+.ring-polish{
+  position: absolute;
+  left:280px;
+  top:-87px;
+  opacity:0;
+  @include transform(translateY(-50px));
+  @include transition(all,2.5s .5s);
+}
+
+.ring-sealed{
+  position: absolute;
+  top:88px;
+  left:22px;
+  opacity:0;
+  @include transform(translateY(-50px));
+  @include transition(all,2.5s .5s);
+}
+
+.ring-th{
+  position: absolute;
+  top:-51px;
+  left:256px;
+  opacity:0;
+  @include transform(translateY(-50px));
+  @include transition(all,2.5s .5s);
+}
+
+.ani-l{
+  opacity:0;
+  @include transform(translateX(-50px));
+  @include transition(all,2s);
+}
+
+.ani-r{
+  opacity:0;
+  @include transform(translateX(50px));
+  @include transition(all,2s);
+}
+
+.ani-in{
+  .ring-arc{
+    opacity:1;
+    @include transform(translateY(0));
+  }
+  .ring-polish{
+    opacity:1;
+    @include transform(translateY(0));
+  }
+  .ring-sealed{
+    opacity:1;
+    @include transform(translateY(0));
+  }
+  .ring-th{
+    opacity:1;
+    @include transform(translateY(0));
+  }
+  .ani-l,.ani-r{
+    opacity:1;
+    @include transform(translateX(0));
+  }
+}
 

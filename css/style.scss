@@ -172,10 +172,10 @@ a{ text-decoration: none;}
     width:100%;
     left:0;
     bottom:0;
-    padding:15px 0 5px 0;
+    padding:15px 0 24px 0;
     background:url(../images/btm_bg.png);
     .wrapper{
-      padding:7px 0;
+      padding-top:7px;
       a{
         display:block;
         width:324px;
@@ -197,9 +197,13 @@ a{ text-decoration: none;}
           width:auto;
           height:auto;
           float:none;
-          color:#fff;
+          color:#000;
         }
       }
+    }
+    ul{
+      padding-bottom:4px;
+      background:#fff;
     }
   }
 }
@@ -252,13 +256,13 @@ a{ text-decoration: none;}
     background:url(../images/nav_bg_a.png);
     .logo{
       a{
-        width:40px; 
-        height:38px;
+        width:92px; 
+        height:88px;
         background: url(../images/logo_m.png) center no-repeat;
       }
     }
     li{
-      padding:0;
+      padding-top:24px;
       a{
         color:#fff;
         &:hover{

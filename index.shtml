@@ -1,39 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link href="css/style.css" rel="stylesheet"/>
-	<script type="text/javascript" src="js/jquery.min.js" ></script>
-</head>
-<body>
-	<div>
-		<div class="top-nav">
-			<ul class="wrapper clearfix">
-				<li class="logo" >
-					<a href="#" title="WE婚戒定制中心"></a>
-				</li>
-				<li>
-					<a href="#" class="on" >首页</a>
-				</li>
-				<li>
-					<a href="#">经典案例</a>
-				</li>
-				<li>
-					<a href="#">系列产品</a>
-				</li>
-				<li>
-					<a href="#">品牌故事</a>
-				</li>
-				<li>
-					<a href="#">WE定制</a>
-				</li>
-				<li>
-					<a href="#">唯一社区</a>
-				</li>
-			</ul>
-		</div>
-		
+	<!--#include virtual="header.shtml" -->
 		<div class="header">
 			<div class="h-bg"></div>
 			<p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p>
@@ -62,7 +30,6 @@
 				</ul>
 			</div>
 		</div>
-
 		<div class="main">
 			<div class="wrapper">
 				<div class="culture ani-show">
@@ -232,7 +199,7 @@
 					var $this = $(this),
 						top = $this.offset().top,
 						w_h = window.innerHeight,
-						height = w_h - ($this.height()*0.5);
+						height = w_h - ($this.height()*0.2);
 					function regScroll() {
 						// detect height
 						if($(document).scrollTop() >= top-height ) {

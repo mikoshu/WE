@@ -820,3 +820,26 @@ a{ text-decoration: none;}
   }
 }
 
+/***系列产品页面***/
+.header.goods{
+  height:536px;
+  .h-bg{
+    background:url(../images/quality_bg.jpg) center no-repeat;
+  }
+}
+
+.main.goods{
+  padding:0 0 20px 0;
+  .site{
+    padding:30px 0;
+    font-size: 16px;
+    color:#a8a8a8;
+    line-height: 20px;
+    a{
+      color:#a8a8a8;
+      &:hover{
+        color:#e6ce9e;
+      }
+    }
+  }
+}

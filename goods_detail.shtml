@@ -1,0 +1,19 @@
+	<!--#include virtual="header.shtml" -->
+		<div class="header goods">
+			<div class="h-bg"></div>
+			<!-- <p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p> -->
+		</div>
+		<div class="main goods">
+			<div class="wrapper">
+				<div class="site">
+					<span>您的位置：</span>
+					<a href="#">WE </a> >
+					<a href="#">系列产品 </a> >
+					<a href="#">xx系列 </a> >
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="footer.shtml" -->
+	</div>
+</body>
+</html>

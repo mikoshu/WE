@@ -212,7 +212,8 @@ a{ text-decoration: none;}
   position: fixed;
   width:100%;
   padding:22px 0;
-  background:url(../images/nav_bg.png);
+  background: rgba(255,255,255,.9);
+  *background:url(../images/nav_bg.png);
   z-index:999;
   @include transition(all,.8s);
   .logo{
@@ -254,7 +255,8 @@ a{ text-decoration: none;}
 /***顶部导航栏变小***/
 .not-top{
     padding:12px 0;
-    background:url(../images/nav_bg_a.png);
+    background:rgba(230,205,158,.9);
+    *background:url(../images/nav_bg_a.png);
     .logo{
       a{
         width:92px; 

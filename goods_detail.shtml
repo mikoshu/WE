@@ -1,4 +1,4 @@
-	<!--#include virtual="header.shtml" -->
+	<!--#include virtual="_header.shtml" -->
 		<div class="header goods">
 			<div class="h-bg"></div>
 			<!-- <p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p> -->
@@ -30,16 +30,90 @@
 						      </div>
 						    </div>
 						    <!--缩图结束-->
-						</div>
-
 					</div>
 					<div class="goods-price">
-						
+						<h3>梦的祈祷<span>情侣对戒（男款）</span></h3>
+						<div class="price-box">
+							￥<span>3999</span>
+							<span class="desc">（仅供参考，具体价格取决于定制方案）</span>
+						</div>
+						<ul class="choose-type clearfix">
+							<li>
+								<span>材质：</span>
+								<div></div>
+							</li>
+							<li>
+								<span>材质：</span>
+								<div></div>
+							</li>
+							<li>
+								<span>材质：</span>
+								<div></div>
+							</li>
+							<li>
+								<span>材质：</span>
+								<div></div>
+							</li>
+						</ul>
+						<p>其他服务：</p>
+						<div class="other-ser">
+							<a class="on" href="#">刻字</a>|
+							<a href="#">刻肖像</a>|
+							<a href="#">刻指纹</a>
+						</div>
+						<a href="#" class="get">预约到店体验</a>
 					</div>
 				</div>
+				<div class="share">
+					分享到：
+				</div>
+				<div class="detail-box">
+					<div>
+						<table>
+							<tr>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+							</tr>
+							<tr>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+							</tr>
+							<tr>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+								<td>产品系列：</td>
+							</tr>
+						</table>
+					</div>
+					
+				</div>
+				
+				<div class="user-content">
+					里面是用户自定义上传 允许 html 代码
+				</div>
+
+				<h3 class="guss">猜你喜欢</h3>
+
+				<div class="border clearfix guss-box">
+					<a href="#">
+						<img src="pic/goods/goods1.jpg" alt="">
+					</a>
+					<a href="#">
+						<img src="pic/goods/goods1.jpg" alt="">
+					</a>
+					<a href="#">
+						<img src="pic/goods/goods1.jpg" alt="">
+					</a>
+				</div>
+
 			</div>
 		</div>
-		<!--#include virtual="footer.shtml" -->
+		<!--#include virtual="_footer.shtml" -->
 	</div>
 <script type="text/javascript" src="js/jqueryZoom.js" ></script>
 <script type="text/javascript">

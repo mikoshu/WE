@@ -29,3 +29,5 @@ $.fn.detectAndAddClass = function(className) { // 监听页面滚动是否到达
 		$(window).on('scroll', regScroll)
 	})
 }
+
+console.log("d")

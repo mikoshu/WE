@@ -824,9 +824,10 @@ a{ text-decoration: none;}
 
 /***系列产品页面***/
 .header.goods{
-  height:536px;
+  height:537px;
   .h-bg{
-    background:url(../images/quality_bg.jpg) center no-repeat;
+    height:537px;
+    background:url(../pic/goods/goods_banner.jpg) center no-repeat;
   }
 }
 
@@ -874,7 +875,158 @@ a{ text-decoration: none;}
 
   .goods-price{
     float: left;
-    width:525px;
+    width:440px;
+    h3{
+      padding-top: 35px;
+      font-size:27px;
+      color:#515151;
+      border-bottom:1px solid #d5d5d5;
+      padding-bottom: 10px;
+      span{
+        font-size:15px;
+        color:#9e9e9e;
+        margin-left:5px;
+      }
+    }
 
   }
+  p{
+    font-size: 16px;
+    color:#808080;
+    padding:25px 0 12px 0px;
+  }
+  .other-ser{
+    a{
+      display:inline-block;
+      *display: inline-block;
+      color:#808080;
+      padding:0 8px;
+      &:hover{
+        background: #e6ce9e;
+        border-radius: 2px;
+        color:#fff;
+      }
+    }
+    .on{
+      background: #e6ce9e;
+      border-radius: 2px;
+      color:#fff;
+    }
+      font-size: 16px;
+      color:#808080;
+    }
+
+  .get{
+    font-size:16px;
+    display: inline-block;
+    *display: inline;
+    padding:2px 4px;
+    color:#fff;
+    background:#cba869;
+    margin-top:60px;
+  }
 }
+
+.price-box{
+  height:42px;
+  padding:10px 0 40px 0;
+  line-height: 42px;
+  font-size:42px;
+  color:#e6ce9e;
+  .desc{
+    font-size:15px;
+  }
+}
+
+.choose-type{
+  padding-top:40px;
+  border-bottom:1px solid #d5d5d5;
+  li{
+    float:left;
+    font-size: 16px;
+    color:#808080;
+    padding-bottom:20px;
+    span{
+      display: inline-block;
+      *display:inline;
+
+    }
+    div{
+      display: inline-block;
+      *display:inline;
+      min-width:110px;
+    }
+  }
+}
+
+.share{
+  height:50px;
+}
+
+.detail-box{
+  background: #eee;
+  padding:12px;
+  margin-top: 75px;
+  >div{
+    border:1px solid #aeaeae;
+    padding:20px 0;
+  }
+  table{
+    width:850px;
+    margin:0 auto auto auto; 
+    font-size: 16px;
+    color:#6f6f6f;
+    td{
+      height:37px;
+    }
+  }
+}
+
+.user-content{
+  border:1px solid #aeaeae;
+  margin-top:50px;
+}
+
+.guss{
+  font-size: 30px;
+  color:#cba869;
+  line-height: 30px;
+  margin:30px 0;
+  text-align:center;
+}
+
+.border{
+  border:1px solid #aeaeae;
+}
+
+.guss-box{
+
+  a{
+    display: block;
+    width:33.33%;
+    float:left;
+    position:relative;
+    &:after{
+      content:"";
+      position: absolute;
+      height:80%;
+      width:1px;
+      background: #aeaeae;
+      right: -1px;
+      top:10%;
+      z-index: 2;
+    }
+    img{
+      width:100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

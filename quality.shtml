@@ -1,4 +1,4 @@
-	<!--#include virtual="header.shtml" -->
+	<!--#include virtual="_header.shtml" -->
 		<div class="header quality">
 			<div class="h-bg pg-quality"></div>
 			<p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p>
@@ -131,7 +131,7 @@
 
 			</div>
 		</div>
-		<!--#include virtual="footer.shtml" -->
+		<!--#include virtual="_footer.shtml" -->
 	</div>
 </body>
 </html>

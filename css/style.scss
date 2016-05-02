@@ -915,15 +915,19 @@ a{ text-decoration: none;}
       font-size: 16px;
       color:#808080;
     }
+}
 
-  .get{
-    font-size:16px;
-    display: inline-block;
-    *display: inline;
-    padding:2px 4px;
-    color:#fff;
-    background:#cba869;
-    margin-top:60px;
+.btn-or{
+  font-size:16px;
+  display: inline-block;
+  *display: inline;
+  padding:2px 4px;
+  color:#fff;
+  background:#cba869;
+  margin-top:60px;
+  @include transition(all,.5s);
+  &:hover{
+    background:#e6ce9e;
   }
 }
 
@@ -985,6 +989,7 @@ a{ text-decoration: none;}
 .user-content{
   border:1px solid #aeaeae;
   margin-top:50px;
+  padding:10px 0;
 }
 
 .guss{
@@ -1020,9 +1025,65 @@ a{ text-decoration: none;}
       width:100%;
     }
   }
+  a:last-child{
+    &:after{
+      display:none;
+    }
+  }
 }
 
+.mt-40{
+  margin-top:40px;
+}
 
+.about-box{
+  height:300px;
+  overflow: hidden;
+  div{
+    width:33.33%;
+    height:300px;
+    padding-top:45px;
+    float:left;
+    position:relative;
+    text-align: center;
+    font-size:15px;
+    &:after{
+      content:"";
+      position: absolute;
+      height:80%;
+      width:1px;
+      background: #aeaeae;
+      right: -1px;
+      top:10%;
+      z-index: 2;
+    }
+    .notice{
+      color:#606060;
+    }
+    dl{
+      padding-top:10px;
+      font-size:28px;
+      color:#caa548;
+      margin-bottom:6px;
+      dt{
+        line-height: 40px;
+      }
+    }
+    p{
+      color:#9c9c9c;
+      line-height: 22px;
+    }
+    .btn-or{
+      width:110px;
+      margin-top:24px;
+    }
+  }
+  div:last-child{
+    &:after{
+      display:none;
+    }
+  }
+}
 
 
 

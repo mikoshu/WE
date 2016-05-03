@@ -30,4 +30,5 @@
 			$(window).on('scroll', regScroll)
 		})
 	}
+
 }(jQuery)

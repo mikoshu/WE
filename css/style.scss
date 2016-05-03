@@ -1,11 +1,11 @@
-*, *:before, *:after {
+/**, *:before, *:after {
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
   -webkit-text-size-adjust:none;
   -ms-text-size-adjust:none;
   text-size-adjust:none;
   -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
-}
+}*/
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3,
 h4, h5, h6, pre, code, form, field set, legend,
@@ -943,7 +943,6 @@ a{ text-decoration: none;}
 }
 
 .choose-type{
-  padding-top:40px;
   border-bottom:1px solid #d5d5d5;
   li{
     float:left;
@@ -1141,7 +1140,7 @@ a{ text-decoration: none;}
       left:50px;
       top:0;
       width:576px;
-      height:434px;
+      height:174px;
       padding-top:260px;
       background:url(../images/design/idear.png) center no-repeat;
       z-index:3;
@@ -1161,6 +1160,87 @@ a{ text-decoration: none;}
       top:41px;
     }
   }
+
+  .designer{
+    position:relative;
+    height:455px;
+    @include transform(translateY(0));
+    img{
+      position:absolute;
+      left:0;
+      top:0;
+      z-index: 2;
+    }
+    .msg-box{
+      position: absolute;
+      left:160px;
+      top:64px;
+      width:835px;
+      height:345px;
+      background: #eaecf0;
+      div{
+        position:absolute;
+        top:58px;
+        left:84px;
+      }
+      h3{
+        font-size:40px;
+        color:#000;
+        font-weight:bold;
+        line-height:55px;
+        margin-bottom: 20px;
+      }
+      p{
+        color:#797979;
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .de-story{
+
+    h3{
+      margin-bottom:25px;
+      text-align: center;
+      font-size:30px;
+      color:#000;
+      line-height:55px;
+    }
+    .img-box{
+      width:550px;
+      height:410px;
+      float:left;
+      text-align: center;
+    }
+    .txt-box{
+      width:340px;
+      padding-top:75px;
+      float:left;
+      border-top:1px solid #e4e4e4;
+      text-align: justify;
+      line-height: 30px;
+      font-size:17px;
+      color:#343434;
+      p{
+        margin-bottom: 10px;
+      }
+      a{
+        padding:2px 14px;
+        color:#ab8638;
+        background: #fff;
+        border:1px solid #343434;
+        @include transition(all,.5s);
+        &:hover{
+          background:#ab8638;
+          color:#fff;
+          border:1px solid #fff;
+        }
+
+      }
+    }
+  }
+
 }
 
 .ani-delay-top{
@@ -1169,9 +1249,31 @@ a{ text-decoration: none;}
   opacity:0;
 }
 
+.ani-delay-l{
+  @include transform(translateX(-50px));
+  @include transition(all,2s 0.5s);
+  opacity:1;
+}
+
+.ani-delay-r{
+  @include transform(translateX(50px));
+  @include transition(all,2s 0.5s);
+  opacity:1;
+}
+
 .ani-in{
   .ani-delay-top{
     @include transform(translateY(0px));
+    opacity:1;
+  }
+
+  .ani-delay-l{
+    @include transform(translateX(0px));
+    opacity:1;
+  }
+
+  .ani-delay-r{
+    @include transform(translateX(0px));
     opacity:1;
   }
 }

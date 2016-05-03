@@ -1085,6 +1085,96 @@ a{ text-decoration: none;}
   }
 }
 
+/**设计团队**/
+.main.design{
+  padding-top:0;
+  .team{
+    height:422px;
+    margin-top:0;
+    @include transform(translateY(0));
+    background:url(../images/design/design_bg.jpg) center no-repeat;
+    position:relative;
+    a{
+      position:absolute;
+      left:174px;
+      top:242px;
+      width:126px;
+      line-height:36px;
+      text-align:center;
+      color:#343434;
+      font-size:18px;
+      border:1px solid #343434;
+    }
+  }
+
+  .intro{
+    margin-top:60px;
+    text-align:center;
+    background:none;
+    h3{
+      color:#000;
+      font-size:20px;
+      margin-bottom:30px;
+    }
+    p{
+      color:#bcbcbc;
+      line-height:30px;
+    }
+  }
+
+  .avatar{
+    width:800px;
+    margin:88px auto auto auto;
+    li{
+      width:33.33%;
+      float:left;
+      text-align:center;
+    }
+  }
+
+  .classic{
+    height:610px;
+    margin-top:160px;
+    position:relative;
+    .class-box{
+      position:absolute;
+      left:50px;
+      top:0;
+      width:576px;
+      height:434px;
+      padding-top:260px;
+      background:url(../images/design/idear.png) center no-repeat;
+      z-index:3;
+      text-align:center;
+      line-height:30px;
+      color:#bcbcbc;
+      font-size:16px;
+      a{
+        color:#000;
+        border-bottom:1px solid #000;
+        line-height:46px;
+      }
+    }
+    img{
+      position:absolute;
+      left:490px;
+      top:41px;
+    }
+  }
+}
+
+.ani-delay-top{
+  @include transform(translateY(20px));
+  @include transition(all,2s 0.5s);
+  opacity:0;
+}
+
+.ani-in{
+  .ani-delay-top{
+    @include transform(translateY(0px));
+    opacity:1;
+  }
+}
 
 
 

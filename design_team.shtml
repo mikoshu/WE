@@ -1,0 +1,65 @@
+
+	<!--#include virtual="_header.shtml" -->
+		<div class="header">
+			<div class="h-bg"></div>
+			<p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p>
+			<div class="h-bottom">
+				<div class="wrapper clearfix bg-fff">
+					<a href="#">
+						<img class="scale" src="pic/img_story.jpg" />
+					</a>
+					<a href="#">
+						<img class="scale" src="pic/img_team.jpg" />
+					</a>
+					<a href="quality.html">
+						<img class="scale" src="pic/img_quality.jpg" />
+					</a>
+				</div>
+				<ul class="clearfix wrapper">
+					<li>
+						<a href="#">品牌故事>></a>
+					</li>
+					<li>
+						<a href="design_team.html">设计团队>></a>
+					</li>
+					<li>
+						<a href="quality.html">品质&工艺>></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main design">
+			<div class="wrapper">
+				<div class="team ani-show">
+					<a href="#" class="ani-delay-top">设计团队</a>
+				</div>
+				
+				<div class="intro ani-show">
+					<h3>DESIGN TEAM</h3>
+					<p>WE拥有一流的国际设计师团队。他们将17世纪的古典风格和</p>
+					<p>现代主义理念融入钻戒设计。在保留钻戒奢华优雅的同时，增</p>
+					<p>添明快、时尚的视觉冲击。</p>
+				</div>
+				
+				<ul class="avatar clearfix ani-show">
+					<li><img src="images/design/avatar1.png" alt=""></li>
+					<li><img src="images/design/avatar2.png" alt=""></li>
+					<li><img src="images/design/avatar3.png" alt=""></li>
+				</ul>
+
+				<div class="classic ani-show">
+					<div class="class-box">
+						<p>崇尚线条美与时尚感的WE,以国际视野拓展钻戒设计的版图。</p>
+						<p>WE的设计团队凭借敏锐洞察力和潮流风向的捕捉能力，为设</p>
+						<p>计注入现代审美的活力。</p>
+						<a href="#">DESIGN IDEAR</a>
+					</div>
+					<img src="images/design/classic.jpg" alt="">
+				</div>
+
+			</div>
+		</div>
+		<!--#include virtual="_footer.shtml" -->
+	</div>
+</body>
+</html>

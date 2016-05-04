@@ -833,7 +833,9 @@ a{ text-decoration: none;}
 
 .main.goods{
   padding:0 0 20px 0;
-  .site{
+}
+
+.site{
     padding:30px 0;
     font-size: 16px;
     color:#a8a8a8;
@@ -845,8 +847,6 @@ a{ text-decoration: none;}
       }
     }
   }
-
-}
 
 .goods-box{
   
@@ -1278,7 +1278,105 @@ a{ text-decoration: none;}
   }
 }
 
+/*帮助中心*/
+.main.help{
+  padding-top:180px;
+  padding-bottom: 0;
+  .site{
+    color:#000;
+    a{
+      color:#000;
+      &:hover{
+        color:#e6ce9e;
+      }
+    }
+  }
+  .side-bar{
+    float:left;
+    width:140px;
+    background:#fafaf9;
+    text-align:center;
+    dl{
+      padding-bottom:10px;
+    }
+    dd{
+      line-height: 45px;
+      font-size:18px;
+      background: #ddd8ce;
+      margin-bottom:10px;
+    }
+    dt{
+      font-size:16px;
+      line-height:30px;
+    }
+    a{
+      display: block;
+      color:#000;
+      position:relative;
+      &:hover{
+        color:#a2815d;
+      }
+      &:hover:after{
+        content:">";
+        position: absolute;
+        font-family: "宋体";
+        left:18px;
+        top:0;
+        font-weight:bold;
+      }
+    }
+    .on{
+      a{
+        color:#a2815d;
+        &:after{
+          content:">";
+          position: absolute;
+          font-family: "宋体";
+          left:18px;
+          top:0;
+          font-weight:bold;
+        }
+      }
+    }
+  }
+  .content{
+    float:left;
+    width:858px;
+    margin-left:2px;
+    .banner{
+      height:392px;
+      background: url(../images/sub/help_center.jpg) no-repeat;
+      position: relative;
+      .btn-bor{
+        position: absolute;
+        left:36px;
+        top:274px;
+      }
+    }
+    .title{
+      font-size:30px;
+      line-height: 45px;
+      margin:50px auto;
+      color:#000;
+      border-bottom:1px solid #c9a564;
+      width:4em;
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+}
 
+.btn-bor{
+  font-size:16px;
+  color:#ab8638;
+  padding:5px 10px;
+  border:1px solid #ab8638;
+  @include transition(all,.5s);
+  &:hover{
+    background:#ab8638;
+    color:#fff;
+  }
+}
 
 
 

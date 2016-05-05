@@ -2,6 +2,15 @@
 	// 通用
 	$(document).ready(function(){ // 导航栏动画
 		var $nav = $(".top-nav");
+		var li = $nav.find("li").mouseover(function(){ // 二级菜单
+			var $this = $(this)
+			$this.find(".sub-nav").css("display","block")
+			.mouseout(function(){
+				$(this).css("display","none")
+			})
+			$this.siblings("li").find(".sub-nav").css("display","none")
+		})
+
 		$(window,document).scroll(function(){
 			var top = $(document).scrollTop()
 			if(top > 0){
@@ -10,7 +19,8 @@
 				$nav.removeClass("not-top")
 			}
 		})
-		$('.ani-show').detectAndAddClass('ani-in')
+
+		$('.ani-show').detectAndAddClass('ani-in') // 页面监听滚动位置动画
 	})
 
 

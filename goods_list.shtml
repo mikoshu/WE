@@ -1,0 +1,176 @@
+	<!--#include virtual="_header.shtml" -->
+		<div class="header goods">
+			<div class="h-bg"></div>
+			<!-- <p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p> -->
+		</div>
+		<div class="main goods">
+			<div class="wrapper">
+				<div class="site">
+					<span>您的位置：</span>
+					<a href="#">WE </a> &gt;
+					<a href="#">系列产品 </a> &gt;
+					<a href="#">xx系列 </a> &gt;
+				</div>
+
+				<div class="goods-list-box">
+					<img class="ac-img" src="images/goods_list/banner_1.jpg" alt="">
+					<ul class="clearfix ac-box">
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="goods-list-box">
+					<img class="ac-img" src="images/goods_list/banner_2.jpg" alt="">
+					<ul class="clearfix ac-box">
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="goods-list-box">
+					<img class="ac-img" src="images/goods_list/banner_3.jpg" alt="">
+					<ul class="clearfix ac-box">
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="goods-list-box">
+					<img class="ac-img" src="images/goods_list/banner_4.jpg" alt="">
+					<ul class="clearfix ac-box">
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="goods-list-box">
+					<img class="ac-img" src="images/goods_list/banner_5.jpg" alt="">
+					<ul class="clearfix ac-box">
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="goods-list-box">
+					<img class="ac-img" src="images/goods_list/banner_6.jpg" alt="">
+					<ul class="clearfix ac-box">
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/goods_list/goods.jpg" alt="">
+								<span>情有独钟</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<!--#include virtual="_footer.shtml" -->
+	</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var $img = $(".ac-img"),
+			$box = $(".ac-box")
+		$img.on("click",function(e){
+			$(this).next().toggle()
+			.parent().siblings(".goods-list-box")
+			.find(".ac-box").css("display","none");
+			
+		})
+	})
+</script>
+</body>
+</html>

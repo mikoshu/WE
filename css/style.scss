@@ -211,7 +211,6 @@ a{ text-decoration: none;}
 .top-nav{
   position: fixed;
   width:100%;
-  padding:22px 0;
   background: rgba(255,255,255,.9);
   *background:url(../images/nav_bg.png);
   z-index:999;
@@ -250,11 +249,15 @@ a{ text-decoration: none;}
   .on{
      border:1px solid #cba869;
   }
+  .wrapper{
+    position: relative;
+    padding:22px 0;
+    @include transition(all,.8s);
+  }
 }
 
 /***顶部导航栏变小***/
 .not-top{
-    padding:12px 0;
     background:rgba(230,205,158,.9);
     *background:url(../images/nav_bg_a.png);
     .logo{
@@ -275,6 +278,9 @@ a{ text-decoration: none;}
       .on{
         border-color: #fff;
       }
+    }
+    .wrapper{
+      padding:12px 0;
     }
 }
 
@@ -1378,6 +1384,77 @@ a{ text-decoration: none;}
   }
 }
 
+
+
+/*商品列表*/
+
+.goods-list-box{
+
+  ul{    
+    display:none;
+    padding:40px 0;
+    border:1px solid #dedede;
+    @include transition(all,1s);
+    li{
+      float:left;
+      width:33.33%;
+      *width:33%;
+    }
+    a{
+      display: block;
+      text-align: center;
+      img{
+        width:330px;
+      }
+      span{
+        display: inline-block;
+        font-size: 16px;
+        color:#e6ce9e;
+        border:1px solid #e6ce9e;
+        padding:2px 16px;
+        @include transition(all,.5s);
+        &:hover{
+          background:#e6ce9e;
+          color:#fff;
+        }
+      }
+    }
+  }
+}
+
+/*二级导航*/
+.sub-nav{
+  display: none;
+  position:absolute;
+  top:100%;
+  right:0;
+  padding:40px;
+  background: rgba(255,255,255,.8);
+  *background: #fff;
+  div{
+    float: left;
+    width:120px;
+    margin-left:4px;
+    text-align: left;
+    h3{
+      color:#434343;
+      padding-bottom:5px; 
+      border-bottom: 1px solid #cacaca;
+      margin-bottom: 10px;
+    }
+    a{
+      display: block;
+      font-size: 14px;
+      color:#8d8d8d;
+      border:none;
+      &:hover{
+        color:#e6ce9e;
+        border:none;
+      }
+    }
+  }
+
+}
 
 
 

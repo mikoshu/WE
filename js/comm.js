@@ -11,7 +11,7 @@
 			$this.siblings("li").find(".sub-nav").css("display","none")
 		})
 
-		$(window,document).scroll(function(){
+		$(window,document).on("scroll",function(){
 			var top = $(document).scrollTop()
 			if(top > 0){
 				$nav.addClass("not-top")

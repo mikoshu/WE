@@ -1429,7 +1429,7 @@ a{ text-decoration: none;}
   top:100%;
   right:0;
   padding:40px;
-  background: rgba(255,255,255,.8);
+  background: rgba(255,255,255,.9);
   *background: #fff;
   div{
     float: left;
@@ -1455,6 +1455,353 @@ a{ text-decoration: none;}
   }
 
 }
+
+/**品牌故事**/
+.main.news-list{
+  padding:0;
+  .news-box{
+    border-top:1px solid #dcc394;
+    padding-top:40px;
+  }
+  .title{
+    font-size: 28px;
+    color:#ddc494;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .news{
+    float:left;
+    width:50%;
+    padding-bottom: 50px;
+    .img-box{
+      display: block;
+      width:492px;
+      height:301px;
+      overflow: hidden;
+      margin:0 auto auto auto;
+    }
+    img{
+      width:100%;
+      display: block;
+    }
+    h3{
+      position: relative;
+      height:40px;
+      margin:12px 0;
+      line-height: 40px;
+      font-size: 26px;
+      color:#343434;
+      text-indent:12px;
+      a{
+        position: absolute;
+        right: 10px;
+        top:0px;
+        font-size: 14px;
+        color:#bfaf95;
+        &:hover{
+          color:#FFC05A;
+        }
+      }
+    }
+    ul{
+      padding:0 20px;
+      li{
+        height:30px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        -webkit-text-overflow:ellipsis;
+        color:#7f7f7f;
+      }
+      a{
+        font-size: 16px;
+        line-height: 30px;
+        color:#7f7f7f;
+        white-space:nowrap;
+      }
+    }
+    a{
+      @include transition(color,.5s);
+      &:hover{
+        color:#dcc394;
+      }
+    }
+  }
+
+  .artical-list{
+    padding:50px 0;
+    border-top:1px solid #dcc394;
+    .artical{
+      height:302px;
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .img-box{
+      float:left;
+      display: block;
+      width:482px;
+      height: 302px;
+      overflow: hidden;
+      img{
+        width:100%;
+      }
+    }
+    .artical-box{
+      float:left;
+      position: relative;
+      width:498px;
+      height:302px;
+      padding:0 10px;
+      h3{
+        font-size: 27px;
+        line-height: 32px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        -webkit-text-overflow:ellipsis;
+        white-space:nowrap;
+      }
+      span{
+        font-size: 12px;
+        color:#c5c5c5;
+      }
+      p{
+        height: 180px;
+        margin-top: 10px;
+        font-size: 14px;
+        color:#a0a0a0;
+        overflow: hidden;
+      }
+      a{
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        font-size: 16px;
+        color: #ddc494;
+        &:hover{
+          color:#EFA516;
+        }
+      }
+    }
+  }
+
+}
+
+.main.artical{
+  padding:0 0 50px 0;
+  .ar-content{
+    padding-top:50px;
+    border-top:1px solid #dcc394;
+    position: relative;
+  }
+  .ar-box{
+    float:left;
+    width:748px;
+    border:1px solid #d9d9d9;
+    padding:45px 0;
+
+    h3{
+      font-size: 30px;
+      text-align: center;
+    }
+    span{
+      display: block;
+      font-size: 12px;
+      color:#c5c5c5;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+  .user-content{
+    border:none;
+    margin:40px 0;
+    padding:0 60px;
+    p{
+      color:#a0a0a0;
+      text-indent: 2em;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    img{
+      display: block;
+      margin:10px auto 10px auto;
+    }
+  }
+  .fixed-box{
+    position: absolute;
+    right:0;
+    top:50px;
+    width:240px;
+    text-align: center;
+    font-size:16px;
+    .box{
+      border:1px solid #d9d9d9;
+       padding-top:20px;
+    }
+    .hot{
+      padding-top:0;
+    }
+    .jd a{
+      display: block;
+      width:134px;
+      margin: 20px auto 20px auto;
+      background: #d9d9d9;
+      color: #5f5f5f;
+      &:hover{
+        background:#dcc394;
+        color: #fff;
+      }
+    }
+  }
+  .hot{
+    margin-top: 10px;
+    h3{
+      line-height: 54px;
+      text-align: center;
+      background: #dcc393;
+      font-size: 24px;
+      color:#fff;
+    }
+    .link{
+      padding:50px 20px;
+      a{
+        display: block;
+        text-align: left;
+        color:#9a9a9a;
+        font-size: 16px;
+        span{
+          color:#dcc393;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}
+
+/*分页*/
+.pager{
+  text-align: center;
+  line-height: 26px;
+  a{
+    display: inline-block;
+    *display: inline;
+    width:26px;
+    height:26px;
+    font-size: 16px;
+    color: #fff;
+    background: #d9d9d9;
+    &:hover{
+      background:#ddc494;
+    }
+  }
+  .page-last,.page-next{
+    font-size: 14px;
+    color:#878282;
+  }
+  .on{
+    background:#ddc494;
+  }
+}
+
+/**定制页面**/
+
+.custom{
+  .h-bg{
+    height:831px;
+    background: url(../images/custom/banner.jpg) center no-repeat;
+  }
+  .title{
+    width:154px;
+    height: 47px;
+    background: url(../images/custom/title.png) no-repeat;
+    margin:10px auto auto auto;
+  }
+  p{
+    width: 520px;
+    margin:50px auto auto auto;
+    text-align: center;
+    line-height: 28px;
+  }
+  .choose-time{
+    display: block;
+    width:298px;
+    margin:100px auto auto auto;
+    border:1px solid #c4c3c3;
+    line-height: 48px;
+    text-indent: 16px;
+    background: url(../images/custom/down.jpg) right top no-repeat;
+  }
+  
+  .msg-box{
+    width:630px;
+    margin:50px auto auto auto;
+    padding:50px 50px;
+    border:2px solid #d1c0a5;
+    h3{
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 50px;
+      padding-left: 84px;
+    }
+    table{
+      width:460px;
+      margin:20px auto auto auto;
+    }
+    td{
+      height:30px;
+      padding:10px 0;
+      font-width:bold;
+    }
+    input{
+      width:307px;
+      height:30px;
+      border:1px solid #000;
+      text-indent: 10px;
+    }
+    p{
+      margin-top:10px;
+      color:#000;
+    }
+    textarea{
+      display: block;
+      width:620px;
+      height:200px;
+      border:1px solid #c9c9c9;
+      padding:12px;
+      margin:20px auto auto auto;
+    }
+  }
+
+  .check-box{
+    display: block;
+    width:30px;
+    height:30px;
+    border:1px solid #000;
+    margin-right: 10px;
+    position: relative;
+  }
+  .check-box.on{
+    &:after{
+      content:"";
+      position: absolute;
+      top:3px;
+      left: 3px;
+      width:24px;
+      height:24px;
+      background: #000;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

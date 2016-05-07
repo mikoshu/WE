@@ -1,0 +1,132 @@
+
+	<!--#include virtual="_header.shtml" -->
+		<div class="header">
+			<div class="h-bg"></div>
+			<p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p>
+			<div class="h-bottom">
+				<div class="wrapper clearfix bg-fff">
+					<a href="#">
+						<img class="scale" src="pic/img_story.jpg" />
+					</a>
+					<a href="#">
+						<img class="scale" src="pic/img_team.jpg" />
+					</a>
+					<a href="quality.html">
+						<img class="scale" src="pic/img_quality.jpg" />
+					</a>
+				</div>
+				<ul class="clearfix wrapper">
+					<li>
+						<a href="#">品牌故事&gt;&gt;</a>
+					</li>
+					<li>
+						<a href="#">设计团队&gt;&gt;</a>
+					</li>
+					<li>
+						<a href="quality.html">品质&工艺&gt;&gt;</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main news-list">
+			<div class="wrapper">
+				<div class="site">
+					<span>您的位置：</span>
+					<a href="#">首页 </a> &gt;
+					<a href="#">品牌故事 </a> &gt;
+					<a href="#">婚礼知识 </a> &gt;
+				</div>
+				<div class="news-box clearfix">
+					<div class="news">
+						<a class="img-box" href="#"><img class="scale" src="images/story/list_bg.jpg" alt=""></a>
+						<h3>
+							WE资讯  
+							<a href="#">更多&gt;&gt;</a>
+						</h3>
+						<ul>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+						</ul>
+					</div>
+					<div class="news">
+						<a class="img-box" href="#"><img class="scale" src="images/story/list_bg2.jpg" alt=""></a>
+						<h3>
+							婚嫁攻略  
+							<a href="#">更多&gt;&gt;</a>
+						</h3>
+						<ul>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+						</ul>
+					</div>
+					<div class="news">
+						<a class="img-box" href="#"><img class="scale" src="images/story/list_bg3.jpg" alt=""></a>
+						<h3>
+							婚戒百科  
+							<a href="#">更多&gt;&gt;</a>
+						</h3>
+						<ul>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+						</ul>
+					</div>
+					<div class="news">
+						<a class="img-box" href="#"><img class="scale" src="images/story/list_bg4.jpg" alt=""></a>
+						<h3>
+							婚礼知识  
+							<a href="#">更多&gt;&gt;</a>
+						</h3>
+						<ul>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+							<li>
+								<a href="#">·WE唯一福清万达店盛大开幕</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<!--#include virtual="_footer.shtml" -->
+	</div>
+</body>
+</html>

@@ -16,13 +16,13 @@
 				</div>
 				<ul class="clearfix wrapper">
 					<li>
-						<a href="#">品牌故事>></a>
+						<a href="#">品牌故事&gt;&gt;</a>
 					</li>
 					<li>
-						<a href="#">设计团队>></a>
+						<a href="#">设计团队&gt;&gt;</a>
 					</li>
 					<li>
-						<a href="quality.html">品质&工艺>></a>
+						<a href="quality.html">品质&amp;工艺&gt;&gt;</a>
 					</li>
 				</ul>
 			</div>
@@ -30,7 +30,7 @@
 		<div class="main quality">
 			<div class="wrapper">
 				<div class="culture ani-show">
-					<h3>品质&工艺</h3>
+					<h3>品质&amp;工艺</h3>
 					<p>世间至美，总隐藏于微小之中。</p>
 					<p>细节体现用心，细节凸显品味，细节是一种思想深度。</p>
 					<p>WE以匠人的态度对待每一枚戒指。</p>

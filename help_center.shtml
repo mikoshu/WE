@@ -38,7 +38,43 @@
 						<div class="banner">
 							<a href="#" class="btn-bor">了解更多WE的品牌故事</a>
 						</div>
-						<p class="title">投诉建议</p>
+						<div class="mid-box">
+							<p class="title">投诉建议</p>
+							<p class="sub-title">COMPLIANT AND PROPOSAL</p>
+							<p class="desc">您的建议或投诉将帮助及监督我们改进产品和服务。非常感谢您的支持。</p>
+							<p class="title">投诉类型</p>
+							<table>
+								<tr>
+									<td><a href="#">接待类服务</a></td>
+									<td><a href="#">接待类服务</a></td>
+									<td><a href="#">接待类服务</a></td>
+									<td><a href="#">接待类服务</a></td>
+								</tr>
+								<tr>
+									<td><a href="#">接待类服务</a></td>
+									<td><a href="#">接待类服务</a></td>
+									<td><a href="#">接待类服务</a></td>
+									<td><a href="#">接待类服务</a></td>
+								</tr>
+							</table>
+							<textarea name="" placeholder="请告诉我们您的任何意见和建议" ></textarea>
+							<p class="desc">建议您留下联系方式，以便DR专员为您一对一服务，谢谢！</p>
+							<input type="text" placeholder="请输入您的手机号码" >
+							<input type="text" placeholder="请输入您的常用邮箱" >
+							<a class="submit" href="#">提交</a>
+							<p class="title">联系方式</p>
+							<div class="link-box clearfix">
+								<dl>
+									<dd><img src="images/link_phone.png"></dd>
+									<dt>0591-0000000</dt>
+								</dl>
+								<dl>
+									<dd><img src="images/link_email.png"></dd>
+									<dt>weinlove@welove.com</dt>
+								</dl>
+							</div>
+						</div>
+						
 					</div>
 				</div>
 			</div>

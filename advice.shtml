@@ -28,10 +28,10 @@
 						</dl>
 						<dl>
 							<dd>帮助中心</dd>
-							<dt class="on"><a href="#">投诉建议</a></dt>
-							<dt><a href="#">注册流程</a></dt>
-							<dt><a href="#">网站地图</a></dt>
-							<dt><a href="#">联系我们</a></dt>
+							<dt class="on"><a href="advice.html">投诉建议</a></dt>
+							<!-- <dt><a href="#">注册流程</a></dt> -->
+							<dt><a href="map.html">网站地图</a></dt>
+							<dt><a href="contact_us.html">联系我们</a></dt>
 						</dl>
 					</div>
 					<div class="content">
@@ -45,16 +45,16 @@
 							<p class="title">投诉类型</p>
 							<table>
 								<tr>
-									<td><a href="#">接待类服务</a></td>
-									<td><a href="#">接待类服务</a></td>
-									<td><a href="#">接待类服务</a></td>
-									<td><a href="#">接待类服务</a></td>
+									<td><a class="type" href="javascript:;">接待服务类</a></td>
+									<td><a class="type" href="javascript:;">店铺体验类</a></td>
+									<td><a class="type" href="javascript:;">网站操作类</a></td>
+									<td><a class="type" href="javascript:;">售后质检类</a></td>
 								</tr>
 								<tr>
-									<td><a href="#">接待类服务</a></td>
-									<td><a href="#">接待类服务</a></td>
-									<td><a href="#">接待类服务</a></td>
-									<td><a href="#">接待类服务</a></td>
+									<td><a class="type" href="javascript:;">定制周期类</a></td>
+									<td><a class="type" href="javascript:;">活动规则类</a></td>
+									<td><a class="type" href="javascript:;">物流运输类</a></td>
+									<td><a class="type" href="javascript:;">其他</a></td>
 								</tr>
 							</table>
 							<textarea name="" placeholder="请告诉我们您的任何意见和建议" ></textarea>
@@ -81,5 +81,14 @@
 		</div>
 		<!--#include virtual="_footer.shtml" -->
 	</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var $type = $(".type")
+		$type.on("click",function(){
+			$type.removeClass("on")
+			$(this).addClass("on")
+		})
+	})
+	</script>
 </body>
 </html>

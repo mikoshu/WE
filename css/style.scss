@@ -1396,11 +1396,19 @@ a{ text-decoration: none;}
       td{
         height:80px;
       }
+      .on{
+        background: #E2C083;
+        color:#fff;
+      }
       a{
+        display: block;
+        height: 40px;
+        line-height: 40px;
         color: #000;
         font-size: 20px;
         &:hover{
-          color:#14A1D8;
+          background: #E2C083;
+          color:#fff;
         }
       }
     }
@@ -1447,6 +1455,34 @@ a{ text-decoration: none;}
     }
 
   }
+
+  .map-box{
+    margin-bottom: 40px;
+    h3{
+      display: inline-block;
+      background: #ccc;
+      padding:8px 16px;
+      margin-bottom: 10px;
+    }
+    a{
+      display: inline-block;
+      margin: 10px;
+      color: #000;
+      font-size: 16px;
+      &:hover{
+        color:#c9a564;
+      }
+    }
+  }
+  dl{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    dd{
+      color: #b5896a;
+    }
+  }
+
 }
 
 .btn-bor{

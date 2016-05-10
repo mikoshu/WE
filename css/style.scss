@@ -995,7 +995,7 @@ a{ text-decoration: none;}
 .user-content{
   border:1px solid #aeaeae;
   margin-top:50px;
-  padding:10px 0;
+  padding:15px;
 }
 
 .guss{
@@ -1548,6 +1548,7 @@ a{ text-decoration: none;}
   .news{
     float:left;
     width:50%;
+    height: 540px;
     padding-bottom: 50px;
     .img-box{
       display: block;
@@ -1670,10 +1671,10 @@ a{ text-decoration: none;}
     position: relative;
   }
   .ar-box{
-    float:left;
     width:748px;
     border:1px solid #d9d9d9;
     padding:45px 0;
+    height: 716px;
 
     h3{
       font-size: 30px;
@@ -1912,7 +1913,50 @@ a{ text-decoration: none;}
 
 
 
+/* Article Content */
+h1,h2 {
+  font-weight: 700;
+  line-height: 35px;
+}
+h1,
+h1 span {
+  font-size: 30px;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 17px;
+}
+h6 {
+  font-size: 16px;
+}
 
 
 
+
+ /*---------------------------------------
+ **   7.0 Alignments                   -----
+-----------------------------------------*/
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}
 

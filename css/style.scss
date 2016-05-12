@@ -993,9 +993,12 @@ a{ text-decoration: none;}
 }
 
 .user-content{
-  border:1px solid #aeaeae;
+  //border:1px solid #aeaeae;
   margin-top:50px;
   padding:15px;
+  img {
+    vertical-align: bottom;
+  }
 }
 
 .guss{

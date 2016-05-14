@@ -1592,6 +1592,92 @@ a{ text-decoration: none;}
     }
   }
 
+  .guide{
+    position:relative;
+    .ti-bg{
+      position:absolute;
+      left:100px;
+      width:226px;
+      height:113px;
+      background:url(../images/sub/guide_title.png) no-repeat;
+    }
+    .story-mod{
+      width:700px;
+      margin:0 auto;
+    }
+    .gui-intro{
+      position: relative;
+      margin-left:170px;
+      padding-top: 80px;
+      width:500px;
+      line-height:30px;
+      color:#797979;
+      text-align:justify;
+    }
+    .gui-story{
+      width:632px;
+      height:306px;
+      margin:20px auto auto auto;
+      background:url(../images/sub/guide_story.png) no-repeat;
+    }
+
+    .my-name{
+      float:left;
+      width:240px;
+      height:142px;
+      font-weight: bold;
+      position:relative;
+      &:after{
+        content:"";
+        position:absolute;
+        left:83px;
+        top:56px;
+        width:1px;
+        height:70px;
+        background: #000;
+      }
+    }
+    .my-story{
+      float:left;
+      width:460px;
+      font-size:16px;
+      p{
+        color:#9c9c9c;
+        text-align:justify;
+      }
+    }
+    .gui-bg{
+      margin-top:100px;
+      height:651px;
+      background: url(../images/sub/guid_bg.jpg) center no-repeat;
+    }
+    .gui-no{
+      width:730px;
+      height:395px;
+      background: url(../images/sub/guide_no.png) no-repeat;
+      margin:100px auto;
+    }
+    .say-no{
+      p{
+        position: relative;
+        width:540px;
+        margin:40px auto;
+        padding-left:40px;
+        color:#000;
+        font-weight: 500;
+        &:after{
+          content:"";
+          position: absolute;
+          left:0;
+          top:11px;
+          width:20px;
+          height:1px;
+          background: #d1c8b6;
+        }
+      }
+    }
+  }
+
 }
 
 .btn-bor{

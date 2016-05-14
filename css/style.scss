@@ -1365,6 +1365,8 @@ a{ text-decoration: none;}
       width:600px;
       margin: 0 auto auto auto;
     }
+    .w-740{width:740px;}
+    .w-800{width:800px;}
     .title{
       font-size:30px;
       line-height: 45px;
@@ -1481,6 +1483,112 @@ a{ text-decoration: none;}
     margin-bottom: 30px;
     dd{
       color: #b5896a;
+    }
+  }
+
+  .gia{
+    p{
+      line-height:28px;
+    }
+    .left{
+      float:left;
+      .title{
+        display:inline-block;
+        *display:inline;
+        margin:20px 0;
+        width:auto;
+      }
+      h3{
+        margin-bottom:60px;
+        font-size:18px;
+        font-weight:bold;
+      }
+      .con{
+        width:230px;
+        text-align:justify;
+      }
+    }
+    .right{
+      float:right;
+    }
+    .title-l{
+      display:inline-block;
+      *display:inline-block;
+      font-size:30px;
+      line-height: 45px;
+      margin:50px auto;
+      color:#000;
+      border-bottom:1px solid #c9a564;
+      width:auto;
+      text-align: center;
+      font-weight: 400;
+    }
+    .check{
+      p{
+        margin-bottom:40px;
+      }
+    }
+  }
+
+  .gia-bg{
+    position:relative;
+    width:740px;
+    height:492px;
+    background:url(../images/sub/giabg.png) center no-repeat;
+    p{
+      position:absolute;
+      left:280px;
+      top:280px;
+      width:414px;
+      text-align:justify;
+    }
+  }
+
+  .cooper{
+    position:relative;
+    height:743px;
+    background:url(../images/sub/boxbg.jpg) center no-repeat;
+    .message{
+      position:absolute;
+      left:310px;
+      top:520px;
+      font-size:14px;
+      p{
+        color:#939393;
+      }
+      
+    }
+  }
+
+  .join-us{
+    padding-bottom:40px;
+    .join{
+      width:328px;
+      height:177px;
+      background:url(../images/sub/join_us.png) center no-repeat;
+      margin:0 auto auto auto;
+    }
+    p{
+      text-align:center;
+      margin:20px 0;
+      line-height:30px;
+    }
+    .left{
+      text-align:left;
+    }
+    .mt{margin:5px 0;}
+
+  }
+  
+  .regist{
+    padding-bottom:40px;
+    .title-l{margin-top:0px;}
+    h3{
+      color:#b5896a;
+      margin:20px 0;
+    }
+    p{
+      margin:20px 0;
     }
   }
 

@@ -58,7 +58,7 @@
 								</tr>
 							</table>
 							<textarea name="" placeholder="请告诉我们您的任何意见和建议" ></textarea>
-							<p class="desc">建议您留下联系方式，以便DR专员为您一对一服务，谢谢！</p>
+							<p class="desc">建议您留下联系方式，一边WE售后专员及时与您联系。</p>
 							<input type="text" placeholder="请输入您的手机号码" >
 							<input type="text" placeholder="请输入您的常用邮箱" >
 							<a class="submit" href="#">提交</a>
@@ -66,11 +66,11 @@
 							<div class="link-box clearfix">
 								<dl>
 									<dd><img src="images/link_phone.png"></dd>
-									<dt>0591-0000000</dt>
+									<dt>400-625-7188</dt>
 								</dl>
 								<dl>
 									<dd><img src="images/link_email.png"></dd>
-									<dt>weinlove@welove.com</dt>
+									<dt>we@we-inlove.com</dt>
 								</dl>
 							</div>
 						</div>

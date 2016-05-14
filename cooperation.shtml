@@ -1,0 +1,79 @@
+	<!--#include virtual="_header.shtml" -->
+		<div class="main help">
+			<div class="wrapper">
+				<div class="site">
+					<span>您的位置：</span>
+					<a href="#">首页 </a> &gt;
+					<a href="#">关于唯一 </a>
+				</div>
+				<div class="clearfix">
+					<div class="side-bar">
+						<dl>
+							<dd>关于唯一</dd>
+							<dt><a href="#">权威认证</a></dt>
+							<dt class="on" ><a href="#">商务合作</a></dt>
+							<dt><a href="#">加入我们</a></dt>
+						</dl>
+						<dl>
+							<dd>售后服务</dd>
+							<dt><a href="#">注册协议</a></dt>
+							<dt><a href="#">隐私说明</a></dt>
+							<dt><a href="#">其他售后</a></dt>
+						</dl>
+						<dl>
+							<dd>婚戒学院</dd>
+							<dt><a href="#">求婚指南</a></dt>
+							<dt><a href="#">产品百科</a></dt>
+							<dt><a href="#">钻石保养</a></dt>
+						</dl>
+						<dl>
+							<dd>帮助中心</dd>
+							<dt><a href="advice.html">投诉建议</a></dt>
+							<!-- <dt><a href="#">注册流程</a></dt> -->
+							<dt><a href="map.html">网站地图</a></dt>
+							<dt><a href="contact_us.html">联系我们</a></dt>
+						</dl>
+					</div>
+					<div class="content">
+						
+						<div class="mid-box w-800 gia">
+							<div class="gia clearfix">
+								<div class="right">
+									<img src="images/sub/jmhz.jpg" alt="">
+								</div>
+								<div class="left">
+									<p class="title" style="margin-top:0px;">商务合作</p>
+									<p class="con" style="width:210px;">WE(唯一)定制钻戒经过多年发展，已成为享誉全国的钻戒定制品牌。独树一帜的WE凭借个性化的定制服务和强大的国际设计师团队，获得了行业内的认可和越来越多年轻爱侣的青睐。</p>
+
+									<!-- <p class="con">WE将爱情记忆融入钻戒设计，使每一对钻戒都成为世间独一无二的爱情证据。今生挚爱， 只在唯一。</p>
+
+									<p class="con">我们愿与制造浪漫婚礼与甜蜜生活的企业合作，共同缔造经典。缔造经典</p> -->
+								</div>
+							</div>
+							<div class="cooper">
+								<div class="message">
+									<p>合作热线：400-625-7188</p>
+									<p>邮箱：we@we-inlove.com</p>
+								</div>
+							</div>
+							
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="_footer.shtml" -->
+	</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var $type = $(".type")
+		$type.on("click",function(){
+			$type.removeClass("on")
+			$(this).addClass("on")
+		})
+	})
+	</script>
+</body>
+</html>

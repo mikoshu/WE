@@ -1678,6 +1678,111 @@ a{ text-decoration: none;}
     }
   }
 
+  .enc{
+    padding-bottom:80px; 
+    .en-banner{
+      width:487px;
+      height:235px;
+      background: url(../images/sub/head_logo.png) no-repeat;
+      margin: 0 auto;
+    }
+    .in-box{
+      margin-top: 120px;
+      position: relative;
+      .left{
+        float:left;
+      }
+      .right{
+        float: right;
+      }
+      .en-intro{
+        position: absolute;
+        top:30px;
+        width:390px;
+        h3{
+          font-size:18px;
+        }
+        .en{
+          font-size: 36px;
+          line-height: 50px;
+          font-weight: bold;
+        }
+        p{
+          margin-top:20px;
+          color:#000;
+          font-size: 15px;
+        }
+      }
+
+      .ab-l{
+        left:0px;
+        text-align: left;
+      }
+      .ab-r{
+        right:0px;
+        text-align: right;
+      }
+    }
+
+    .title{
+      width:10em;
+    }
+    .c-5{
+      width:570px;
+      margin:0 auto;
+      text-align: justify;
+    }
+    .btn-bor{
+      display: block;
+      width:210px;
+      text-align: center;
+      margin:40px auto;
+    }
+
+  }
+  .en-item{
+    width: 570px;
+    padding-left:34px;
+    position: relative;
+    margin: 60px auto auto auto;
+    &:after{
+      content:"";
+      position: absolute;
+      top:3px;
+      left:0px;
+      width:16px;
+      height:16px;
+      border-radius: 50%;
+      background: #000;
+    }
+  }
+  .dia{
+    .dia-banner{
+      width:294px;
+      height:159px;
+      margin:0 auto;
+      background: url(../images/sub/diamond.png) no-repeat;
+    }
+    .text-mid{
+      margin: 40px auto;
+    }
+    .c-5{
+      margin-top:20px;
+      text-align: center !important;
+    }
+    .tl{
+      height:510px;
+      margin-top:20px;
+      background:url(../images/sub/tl.jpg) center no-repeat;
+    }
+    .en-item{
+      color:#767676;
+      &:after{
+        background:#767676;
+      }
+    }
+  }
+
 }
 
 .btn-bor{
@@ -1692,7 +1797,9 @@ a{ text-decoration: none;}
   }
 }
 
-
+.text-mid{
+  text-align: center;
+}
 
 /*商品列表*/
 

@@ -3,9 +3,10 @@
 		var $img = $(".ac-img"),
 			$box = $(".ac-box")
 		$img.on("click",function(e){
-			$(this).next().toggle()
+			var $this = $(this)
+			$this.next().slideToggle()
 			.parent().siblings(".goods-list-box")
-			.find(".ac-box").css("display","none");
+			.find(".ac-box").slideUp();
 			
 		})
 	})

@@ -214,7 +214,7 @@ a{ text-decoration: none;}
   background: rgba(255,255,255,.9);
   *background:url(../images/nav_bg.png);
   z-index:999;
-  box-shadow: 0px 1px 8px #333;
+  box-shadow: 0px 1px 10px #6D6262;
   @include transition(all,.8s);
   .logo{
     padding:0;
@@ -848,7 +848,7 @@ a{ text-decoration: none;}
     color:#a8a8a8;
     line-height: 20px;
     a{
-      color:#a8a8a8;
+      color:#c4c4c4;
       &:hover{
         color:#e6ce9e;
       }
@@ -1291,9 +1291,9 @@ a{ text-decoration: none;}
   padding-top:180px;
   padding-bottom: 0;
   .site{
-    color:#000;
+    color:#c4c4c4;
     a{
-      color:#000;
+      color:#c4c4c4;
       &:hover{
         color:#e6ce9e;
       }
@@ -2356,4 +2356,13 @@ h6 {
       }
     }
   }
+}
+
+
+.index{
+  padding-top:160px;
+  width:1000px;
+  height:862px;
+  margin:0 auto;
+  background:url(../images/index.jpg) center no-repeat;
 }

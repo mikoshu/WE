@@ -252,7 +252,7 @@ a{ text-decoration: none;}
   }
   .wrapper{
     position: relative;
-    padding:22px 0;
+    padding:10px 0;
     @include transition(all,.8s);
   }
 }
@@ -1364,6 +1364,7 @@ a{ text-decoration: none;}
     .mid-box{
       width:600px;
       margin: 0 auto auto auto;
+      font-size: 16px;
     }
     .w-740{width:740px;}
     .w-800{width:800px;}
@@ -1462,15 +1463,18 @@ a{ text-decoration: none;}
   .map-box{
     margin-bottom: 40px;
     h3{
-      display: inline-block;
-      background: #ccc;
+      display: block;
+      width:440px;
+      color:#cba872;
       padding:8px 16px;
       margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      font-size: 20px;
     }
     a{
       display: inline-block;
-      margin: 10px;
-      color: #000;
+      margin: 10px 30px;
+      color: #858585;
       font-size: 16px;
       &:hover{
         color:#c9a564;

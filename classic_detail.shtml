@@ -1,0 +1,38 @@
+	<!--#include virtual="_header.shtml" -->
+		<div class="header goods">
+			<div class="h-bg"></div>
+			<!-- <p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p> -->
+		</div>
+		<div class="main goods">
+			<div class="wrapper">
+				<div class="site">
+					<span>您的位置：</span>
+					<a href="/">WE </a> &gt;
+					<a href="classics.html">经典案例 </a> &gt;
+					<a href="javascript:;">永恒沙漏系列 </a>
+				</div>
+
+				<div>
+					<img src="images/classic/detial1.jpg" alt="">
+				</div>
+				
+
+			</div>
+		</div>
+		<!--#include virtual="_footer.shtml" -->
+	</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// var $img = $(".ac-img"),
+		// 	$box = $(".ac-box")
+		// $img.on("click",function(e){
+		// 	var $this = $(this)
+		// 	$this.next().slideToggle()
+		// 	.parent().siblings(".goods-list-box")
+		// 	.find(".ac-box").slideUp();
+			
+		// })
+	})
+</script>
+</body>
+</html>

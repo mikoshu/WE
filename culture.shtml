@@ -1,0 +1,107 @@
+
+	<!--#include virtual="_header.shtml" -->
+		<div class="header">
+			<div class="h-bg"></div>
+			<p class="txt">一枚钻戒 见证一个浪漫爱情故事 Ring Custum Center</p>
+			<div class="h-bottom">
+				<div class="wrapper clearfix bg-fff">
+					<a href="#">
+						<img class="scale" src="pic/img_story.jpg" />
+					</a>
+					<a href="#">
+						<img class="scale" src="pic/img_team.jpg" />
+					</a>
+					<a href="quality.html">
+						<img class="scale" src="pic/img_quality.jpg" />
+					</a>
+				</div>
+				<ul class="clearfix wrapper">
+					<li>
+						<a href="#">品牌故事>></a>
+					</li>
+					<li>
+						<a href="#">设计团队>></a>
+					</li>
+					<li>
+						<a href="quality.html">品质&工艺>></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="wrapper">
+				<div class="culture ani-show">
+					<h3>品牌文化</h3>
+					<p>上世纪90年代，WE首次提出专属钻戒定制概念。当第一对WE钻戒问世，</p>
+					<p>以其故事性和设计美感的完美结合，彻底颠覆了传统钻戒只追求形式美的束缚。</p>
+					<p>独树一帜的WE，始终专注于提供个性化的定制服务。</p>
+				</div>
+				
+				<div class="unique clearfix ani-show">
+					<div class="un-l">
+						<p class="title"></p>
+						<p class="stand"></p>
+					</div>
+					<div class="un-r">
+						<p class="t1">唯一定制</p>
+						<p class="t2">国内戒指定制领航者</p>
+					</div>
+				</div>
+
+				<div class="light clearfix ani-show">
+					<div class="li-l">
+						<p>
+							WE作为开放式的钻戒定制平台，最大的特色是让每一对爱侣都能参与到钻戒的设计中。WE释放最大的选择空间，您可以根据个人经历回忆、审美喜好、预算标准定制独一无二的钻石戒指。
+						</p>
+						<p class="square"></p>
+					</div>
+					<ul class="li-r clearfix">
+						<li><img class="scale" src="pic/light_img1.jpg" /></li>
+						<li><img class="scale" src="pic/light_img2.jpg" /></li>
+						<li><img class="scale" src="pic/light_img3.jpg" /></li>
+						<li><img class="scale" src="pic/light_img4.jpg" /></li>
+						<li><img class="scale" src="pic/light_img5.jpg" /></li>
+						<li><img class="scale" src="pic/light_img6.jpg" /></li>
+					</ul>
+				</div>
+
+				<div class="standards clearfix ani-show">
+					<div class="st-l">
+						<img class="ring" src="pic/ring.png" >
+					</div>
+					<div class="st-r">
+						<p>
+							WE严格遵守国际权威的4C钻石挑选标准，在此基础上探索出更苛刻的5C审核机制和TIPS原则。对品质的严格把关以及对细节一丝不苟的态度，是WE始终不变的追求。
+						</p>
+						<a href="#">了解更多WE的品质标准</a>
+					</div>
+				</div>
+
+				<div class="intro ani-show">
+					<p>WE钻戒，是一个个故事的讲述者。</p>
+					<p>将日期、姓名、承诺、定情信物、共同经历，渗透进恋人们相遇、相知、相爱的点点滴滴。</p>
+					<p>WE的国际设计师团队将爱情记忆融入钻戒设计，使每一对钻戒都成为世间独一无二的爱情证据。</p>
+					<p>见证“唯一只给唯一爱人”的坚贞守信。</p>
+					<a href="#">了解更多WE的设计工艺</a>
+				</div>
+
+				<div class="photo clearfix ani-show">
+					<div class="ph-l">
+						<img class="scale" src="pic/photo_1.jpg">
+					</div>
+					<div class="ph-r">
+						<div class="img1">
+							<img class="scale" src="pic/photo_2.jpg">
+						</div>
+						<div class="img2">
+							<img class="scale" src="pic/photo_3.jpg">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--#include virtual="_footer.shtml" -->
+	</div>
+</body>
+</html>

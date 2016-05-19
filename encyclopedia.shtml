@@ -3,18 +3,44 @@
 			<div class="wrapper">
 				<div class="site">
 					<span>您的位置：</span>
-					<a href="/">首页 </a> &gt;
-					<a href="javascript:;">婚戒学院</a> &gt;
-					<a href="#">产品百科</a>
+					<a href="#">首页 </a> &gt;
+					<a href="#">关于唯一 </a>
 				</div>
 				<div class="clearfix">
-					<?php get_template_part( 'sections/help-sidebar' ); ?>
+					<div class="side-bar">
+						<dl>
+							<dd>关于唯一</dd>
+							<dt><a href="authority.html">权威认证</a></dt>
+							<dt><a href="cooperation.html">商务合作</a></dt>
+							<dt><a href="join_us.html">加入我们</a></dt>
+						</dl>
+						<dl>
+							<dd>售后服务</dd>
+							<dt><a href="regist.html">注册协议</a></dt>
+							<dt><a href="statement.html">隐私说明</a></dt>
+							<dt><a href="return.html">退换流程</a></dt>
+							<dt><a href="other.html">其他售后</a></dt>
+						</dl>
+						<dl>
+							<dd>婚戒学院</dd>
+							<dt><a href="guidelines.html">求婚指南</a></dt>
+							<dt class="on"><a href="encyclopedia.html">产品百科</a></dt>
+							<dt><a href="diamond.html">钻石保养</a></dt>
+						</dl>
+						<dl>
+							<dd>帮助中心</dd>
+							<dt><a href="advice.html">投诉建议</a></dt>
+							<!-- <dt><a href="#">注册流程</a></dt> -->
+							<dt><a href="map.html">网站地图</a></dt>
+							<dt><a href="contact_us.html">联系我们</a></dt>
+						</dl>
+					</div>
 					<div class="content">
 						
 						<div class="mid-box enc w-800">
 							<div class="en-banner"></div>
 							<div class="in-box clearfix">
-								<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/images/sub/en_img1.jpg" alt="">
+								<img class="left" src="images/sub/en_img1.jpg" alt="">
 								<div class="en-intro ab-r">
 									<h3>克拉</h3>
 									<h3 class="en">CARAT</h3>
@@ -23,7 +49,7 @@
 							</div>
 
 							<div class="in-box clearfix">
-								<img class="right" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/images/sub/en_img2.jpg" alt="">
+								<img class="right" src="images/sub/en_img2.jpg" alt="">
 								<div class="en-intro ab-l">
 									<h3>颜色</h3>
 									<h3 class="en">COLOUR</h3>
@@ -32,7 +58,7 @@
 							</div>
 
 							<div class="in-box clearfix">
-								<img class="left" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/images/sub/en_img3.jpg" alt="">
+								<img class="left" src="images/sub/en_img3.jpg" alt="">
 								<div class="en-intro ab-r">
 									<h3>净度</h3>
 									<h3 class="en">CLARITY</h3>
@@ -41,7 +67,7 @@
 							</div>
 
 							<div class="in-box clearfix">
-								<img class="right" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/images/sub/en_img4.jpg" alt="">
+								<img class="right" src="images/sub/en_img4.jpg" alt="">
 								<div class="en-intro ab-l">
 									<h3>切工</h3>
 									<h3 class="en">CUT</h3>
@@ -51,7 +77,7 @@
 
 							<p class="title">拥有“5C”的WE钻石</p>
 							<p class="c-5">20世纪中期，美国宝石研究院GIA创立了业内公认的钻石分级标准“4C”（颜色Colour、净度Clarity、切工Cut和克拉Carat)。 时至今日，“4C”已经成为最权威的钻石质量认证标准。WE严格遵守国际通用的4C钻石评定标准。在此基础上精益求精的WE制定出更为严格的“5C”钻石审核机制。</p>
-							<a href="#" class="btn-bor">了解更多WE的品质&gt;工艺</a>
+							<a href="http://we-inlove.com/quality" class="btn-bor">了解更多WE的品质&工艺</a>
 							<h3 class="text-mid">怎么挑选对戒</h3>
 							<p class="en-item">一般而言，男女情侣对戒主要有两种类型，一种是男戒与女戒完全相同，女戒比男戒的设计上要紧密乖巧一点;另外一种类型则是男戒和女戒一起构成某个图案，比如爱心图案。男女对戒的挑选十分重要，适合自己的才是最重要的。</p>
 							<p class="en-item">一生一戒指，男女情侣对戒的挑选首先必定是要考虑到双方的感受的，两人一定要沟通好，如有有分歧的话应该要仔细考虑下。另外，挑选情侣对戒一定要注意结合双方的气质、肤色、喜好还有个性特征等，一定要结合双方的特点进行调选，适合的才是最重要。</p>

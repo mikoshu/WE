@@ -1016,6 +1016,7 @@ a{ text-decoration: none;}
   a{
     display: block;
     width:33.33%;
+    *width:33%;
     float:left;
     position:relative;
     &:after{
@@ -1048,6 +1049,7 @@ a{ text-decoration: none;}
   overflow: hidden;
   div{
     width:33.33%;
+    *width:33%;
     height:255px;
     padding-top:45px;
     float:left;
@@ -2127,9 +2129,16 @@ a{ text-decoration: none;}
 
 /**定制页面**/
 
+.head-title{
+    height:334px;
+    background:url(../images/custom/head.jpg) center no-repeat;
+  }
+.header.custom{
+  height:687px;
+}
 .custom{
   .h-bg{
-    height:831px;
+    height:687px;
     background: url(../images/custom/banner.jpg) center no-repeat;
   }
   .title{
@@ -2147,70 +2156,144 @@ a{ text-decoration: none;}
   .choose-time{
     display: block;
     width:298px;
-    margin:100px auto auto auto;
     border:1px solid #c4c3c3;
-    line-height: 48px;
+    line-height: 25px;
     text-indent: 16px;
     background: url(../images/custom/down.jpg) right top no-repeat;
+  }
+
+  .form{
+    margin-top:80px;
+    .rows{
+      .submit{
+        margin:0;
+        width:151px;
+        line-height: 33px;
+        height:33px;
+        font-size: 18px;
+      }
+    }
+    .cell-l{
+      float:left;
+      position: relative;
+      text-align: right;
+      width:180px;
+      color:#311c08;
+      &:after{
+        content:"";
+        position: absolute;
+        right:-42px;
+        top:8px;
+        width:12px;
+        height:12px;
+        background: #c8a466;
+        border-radius: 50%;
+      }
+    }
+    .cell-r{
+      float:left;
+      width:700px;
+      border-left:2px solid #c8a466;
+      padding-left:35px;
+      padding-bottom: 20px;
+      margin-left:35px;
+      color:#989898;
+      select{
+        width:300px;
+        background:none;
+        color:#989898;
+        text-indent: 12px;
+      }
+      h3{
+        color:#311c08;
+        border-bottom:1px solid #c8a466;
+        font-size:18px;
+        line-height: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      .other-choose{
+        margin-top:20px;
+        padding-top: 30px;
+        border-top:1px dashed #c8a466;
+        h3{
+          font-size: 16px;
+          border:none;
+          margin-bottom: 0px;
+          margin-top:20px;
+        }
+        table{
+          width:520px;
+          margin-top:0px;
+          td{
+            width:130px;
+            margin:0;
+            padding:0;
+          }
+        }
+      }
+
+    }
   }
   
   .msg-box{
     width:630px;
-    margin:50px auto auto auto;
-    padding:50px 50px;
-    border:2px solid #d1c0a5;
-    h3{
-      font-size: 24px;
-      font-weight: bold;
-      line-height: 50px;
-      padding-left: 84px;
-    }
     table{
-      width:460px;
-      margin:20px auto auto auto;
+      width:375px;
     }
     td{
       height:30px;
-      padding:10px 0;
+      padding:5px 0;
       font-width:bold;
+      font-size:16px;
     }
     input{
-      width:307px;
-      height:30px;
-      border:1px solid #000;
+      width:256px;
+      height:26px;
+      border:1px solid #989898;
       text-indent: 10px;
     }
     p{
+      width:auto;
+      font-size: 16px;
+      text-align: left;
       margin-top:10px;
-      color:#000;
+      color:#989898;
     }
     textarea{
-      display: block;
-      width:620px;
-      height:200px;
+      width:510px;
+      height:132px;
       border:1px solid #c9c9c9;
       padding:12px;
-      margin:20px auto auto auto;
+      margin:10px auto auto auto;
     }
   }
 
   .check-box{
-    display: block;
-    width:30px;
-    height:30px;
-    border:1px solid #000;
+    cursor: pointer;
+    font-size: 16px;
+    margin:5px;
+  }
+
+  .check-box a{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border:1px solid #989898;
     margin-right: 10px;
     position: relative;
+    vertical-align: -2px;
   }
-  .check-box.on{
+  .check-box a.on{
     &:after{
       content:"";
       position: absolute;
-      top:3px;
-      left: 3px;
-      width:24px;
-      height:24px;
-      background: #000;
+      top:0px;
+      left: 0px;
+      width:15px;
+      height:15px;
+      background: #c8a466;
     }
   }
 

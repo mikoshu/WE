@@ -2285,7 +2285,7 @@ a{ text-decoration: none;}
     position: relative;
     vertical-align: -2px;
   }
-  .check-box a.on{
+  .check-box.on a{
     &:after{
       content:"";
       position: absolute;

@@ -12,16 +12,38 @@
 				</div>
 
 				<div class="goods-list-box" style="margin-top:20px;">
-					<a href="classic_detail.html"><img class="ac-img" src="images/classic/banner4.jpg" alt=""></a>
+					<a href="classic_detail1.html"><img class="ac-img" src="images/classic/1/1banner-LoveLetter.jpg" alt=""></a>
 				</div>
 
 				<div class="goods-list-box" style="margin-top:20px;">
-					<a href="javascript:;"><img class="ac-img" src="images/classic/banner2.jpg" alt=""></a>
+					<a href="classic_detail2.html"><img class="ac-img" src="images/classic/2/2banner-cn.jpg" alt=""></a>
 				</div>
 
 				<div class="goods-list-box" style="margin-top:20px;">
-					<a href="javascript:;"><img class="ac-img" src="images/classic/banner1.jpg" alt=""></a>
+					<a href="classic_detail3.html"><img class="ac-img" src="images/classic/3/3banner-yh.jpg" alt=""></a>
 				</div>
+
+				<div class="goods-list-box" style="margin-top:20px;">
+					<a href="classic_detail4.html"><img class="ac-img" src="images/classic/4/4banner-yl.jpg" alt=""></a>
+				</div>
+
+				<div class="goods-list-box" style="margin-top:20px;">
+					<a href="classic_detail5.html"><img class="ac-img" src="images/classic/5/5banner-xl.jpg" alt=""></a>
+				</div>
+
+				<div class="goods-list-box" style="margin-top:20px;">
+					<a href="classic_detail6.html"><img class="ac-img" src="images/classic/6/6banner-na.jpg" alt=""></a>
+				</div>
+
+				<div class="goods-list-box" style="margin-top:20px;">
+					<a href="classic_detail7.html"><img class="ac-img" src="images/classic/7/7banner-sy.jpg" alt=""></a>
+				</div>
+
+				<div class="goods-list-box" style="margin-top:20px;">
+					<a href="classic_detail8.html"><img class="ac-img" src="images/classic/8/8banner-rainbow.jpg" alt=""></a>
+				</div>
+
+				
 
 				
 

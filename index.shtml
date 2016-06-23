@@ -1,8 +1,27 @@
 	<!--#include virtual="_header.shtml" -->
 		<div class="index">
-			
+			<div class="banner1" style="display:block" ></div>
+			<div class="banner2"></div>
 		</div>
 		<!--#include virtual="_footer.shtml" -->
 	</div>
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var banner = $(".index")
+		var len = $(".index").find("div").length - 1
+		var current = 0
+		var autoplay =  setInterval(function(){
+							banner.find("div").fadeOut(2000);
+							if(current == len){
+								current = 0
+							}else{
+								current += 1
+							}
+							banner.find("div").eq(current).fadeIn(2000);
+						},5000)
+		
+	})
+	</script>
 </body>
 </html>
